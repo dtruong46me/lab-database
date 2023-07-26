@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS hr;
+CREATE DATABASE hr;
+USE hr;
+
 CREATE TABLE job_grades (
     grade_level VARCHAR(2),
     lowest_sal INT,
